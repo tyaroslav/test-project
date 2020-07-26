@@ -12,7 +12,8 @@ h1{
 h2{
   font-family: Lobster; 
   font-size: 24px;
-  text-align: justify;
+  font-weight: 100;
+  text-align: center;
 }
 
 p{
@@ -32,6 +33,21 @@ p{
 
 
 .fixed-image{
-  width: 500px;
-    height: auto;
+  width: 50%;
+  padding: 24px;
+}
+.fixed-image img {
+  width: 100%;
+  height: auto;
+}
+
+body.rounded img {
+  border-radius: 24px;
+  filter: grayscale(100%) contrast(150%);
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,2 +1,7 @@
 console.log("Hello JS")
-console.log(document.querySelector("h1").innerText)
+
+let button = document.getElementById('click-me')
+
+button.addEventListener('click', function () {
+    document.body.classList.toggle('rounded')
+})
